@@ -163,11 +163,11 @@ export const Lid = ({ scaleX, scaleY, rotate, translate, src }) => {
       >
         <div className="absolute inset-0 rounded-lg bg-[#272729]" />
         <video
-          src="/video.mp4" // path to your video in the public folder
-          autoPlay // automatically play
-          loop // repeat indefinitely
-          muted // needed for autoplay in most browsers
-          playsInline // allows autoplay on mobile
+          src="/video.mp4"
+          autoPlay
+          muted // 🔴 required for autoplay to work
+          loop
+          playsInline
           className="absolute inset-0 h-full w-full rounded-lg object-cover object-left-top"
         />
       </motion.div>
