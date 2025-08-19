@@ -4,15 +4,10 @@ A scroll-driven interactive that mimics a MacBook opening as you scroll—a chic
 
 ---
 
-##  Demo
+## Inspiration GIF
 
-Watch the video demo right here:
+![Baddie Vibe](https://i.pinimg.com/originals/37/c2/13/37c213627014c4a98f20321a2e3f9079.gif)
 
-https://raw.githubusercontent.com/youknowom/mac/main/public/demo.mp4
-
-*(If it doesn’t play inline, consider opening it directly in your browser.)*
-
----
 
 ## About "This Baddie"
 
