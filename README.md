@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# This Baddie
 
-## Getting Started
+A scroll-driven interactive that mimics a MacBook opening as you scroll—a chic and dynamic visual experience powered by modern frontend tech.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+##  Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Watch the video demo right here:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+https://raw.githubusercontent.com/youknowom/mac/main/public/demo.mp4
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*(If it doesn’t play inline, consider opening it directly in your browser.)*
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## About "This Baddie"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**“This Baddie”** is built to impress:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Captures a MacBook opening with immersive scroll-linked animations and 3D-style perspective transforms
+- Embeds a background video seamlessly within the MacBook-like frame
+- Crafted to look sleek, playful, and sophisticated
 
-## Deploy on Vercel
+### Tech Stack
+- **Next.js 13 (App Router)** — modern routing and layout
+- **Motion (e.g., framer-motion or motion/react)** — for smooth scroll-based animations
+- **Tailwind CSS** — utility-first responsive styling
+- Custom fonts via `next/font/google` (Geist and Geist Mono)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Features
+- Elegant scroll-triggered transformations
+- Responsive layout for cross-device compatibility
+- Powerful visual interactions with minimal overhead
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+##  Getting Started
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/youknowom/mac.git
+   cd mac
